@@ -1,10 +1,6 @@
 import {
     LOGIN_SAVE_DATA
   } from './actionTypes'
-
-  
-  import {Actions} from 'react-native-router-flux';
-  
  
   export function login(state = {email:'',pin:'',amount:''}, action) {
     switch (action.type) {

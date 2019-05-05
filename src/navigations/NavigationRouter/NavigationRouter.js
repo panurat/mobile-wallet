@@ -62,17 +62,7 @@ export class NavigationRouter extends Component {
               hideNavBar={false}
               component={Pin}
             />
-  
-            {/* <Scene
-              key={SceneKeys.contact}
-              component={HomeContact}
-              type={ActionConst.RESET}
-              hideNavBar={false}
-              {...styles.navbar}
-              getTitle={() => Locale.translate(LocaleKeys.containers.contact.title.contact)}
-              renderLeftButton={NavItems.backButtonWhite}
-            /> */}
-  
+    
           </Scene>
         </Router>
         

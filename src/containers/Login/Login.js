@@ -42,7 +42,7 @@ class Login extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Enter Email</Text>
+        <Text>Enter email for login</Text>
         <TextInput
          placeholder="Email"
          keyboardType="email-address"

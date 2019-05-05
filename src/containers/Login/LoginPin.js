@@ -48,7 +48,7 @@ class LoginPin extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Enter Pin</Text>
+        <Text>Enter Pin for login</Text>
          <TextInput
           placeholder="Pin"
           secureTextEntry={true}

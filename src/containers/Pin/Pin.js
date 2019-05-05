@@ -48,7 +48,7 @@ class Pin extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Enter Pin 6 digits</Text>
+        <Text>Enter pin 6 digits for register</Text>
         <TextInput
         placeholder="Pin"
         secureTextEntry={true}

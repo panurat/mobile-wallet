@@ -3,9 +3,6 @@ import { connect } from 'react-redux'
 import  {StyleSheet, Text, View, Button} from 'react-native';
 
 import { Actions } from 'react-native-router-flux';
-import { REGISTER_SAVE_EMAIL } from '../../reducers/actionTypes';
-
-
 
 export class Account extends Component {
 

@@ -44,6 +44,7 @@ class Register extends Component {
         Alert.alert(
           "Can't connect server"
         )
+        self.setState({loading:false})
       });
     }
     
