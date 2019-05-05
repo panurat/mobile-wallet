@@ -1,2 +1,3 @@
-# digio-wallet
-# mobile-wallet
+# install
+- npm install
+- react-native run-ios
