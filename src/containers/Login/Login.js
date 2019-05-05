@@ -33,8 +33,9 @@ class Login extends Component {
     })
     .catch(function (error) {
       Alert.alert(
-        error
+        "Can't connect server"
       )
+      self.setState({loading:false})
     });
   }
 

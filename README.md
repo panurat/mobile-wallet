@@ -1,2 +1,1 @@
-# digio-wallet
 # mobile-wallet

@@ -42,7 +42,7 @@ class Register extends Component {
       })
       .catch(function (error) {
         Alert.alert(
-          error
+          "Can't connect server"
         )
       });
     }
